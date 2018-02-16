@@ -4,8 +4,8 @@
 ### 사용 기술
 
 **Gem**
-`gem 'bootstrap-sass', '~> 3.3.7'`
-`gem 'bootstrap_form'`
-`gem 'tinymce-rails'`
-`gem 'devise'`
-`gem 'devise-bootstrap-views'`
+* `gem 'bootstrap-sass', '~> 3.3.7'`
+* `gem 'bootstrap_form'`
+* `gem 'tinymce-rails'`
+* `gem 'devise'`
+* `gem 'devise-bootstrap-views'`
