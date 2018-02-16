@@ -1,0 +1,21 @@
+<h1>포스트 페이지</h1>
+<br><hr><br>
+
+<table class="table">
+    <thead>
+      <tr>
+        <th>제목</th>
+        <th>내용</th>
+        <th>글 보기</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% @posts.each do |post| %>
+      <tr>
+        <td><%= post.title %></td>
+        <td><%= post.content.html_safe %></td>
+        <td><%= link_to "[이동]", post_path(post.id) %></td>
+      </tr>
+      <% end %>
+    </tbody>
+  </table>

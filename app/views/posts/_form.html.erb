@@ -1,0 +1,7 @@
+<%= bootstrap_form_for(@post) do |f| %>
+  <%= f.hidden_field :user_id, value: current_user.id %>
+  <%= f.text_field :title %>
+  <%= f.text_area :content, class: 'tinymce', rows: '10' %>
+  <%= tinymce %>
+  <%= f.submit %>
+<% end %>
